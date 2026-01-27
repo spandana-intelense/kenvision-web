@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kenvision.ai/sitemap.xml

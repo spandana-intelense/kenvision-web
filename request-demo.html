@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Demo | KenVision AI Video Platform</title>
+    <meta name="description"
+        content="Experience the future of video intelligence. Request a personalized demo of KenVision today.">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .form-group {
+            margin-bottom: 24px;
+            text-align: left;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            background: white;
+            font-family: inherit;
+            color: var(--text);
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+    </style>
+</head>
+
+<body style="background: var(--p-bg);">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">KenVision</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="dropdown">
+                    <a href="solutions/index.html" class="nav-link">Solutions</a>
+                    <div class="dropdown-menu">
+                        <a href="solutions/retail-analytics.html" class="dropdown-item">Retail</a>
+                        <a href="solutions/commercial-buildings.html" class="dropdown-item">Commercial</a>
+                        <a href="solutions/smart-cities.html" class="dropdown-item">Smart Cities</a>
+                        <a href="solutions/video-surveillance.html" class="dropdown-item">Surveillance</a>
+                    </div>
+                </div>
+                <a href="product.html" class="nav-link">Product</a>
+                <a href="company.html" class="nav-link">Company</a>
+            </div>
+            <div class="nav-cta-wrapper">
+                <a href="request-demo.html" class="btn btn-primary nav-cta active">Request Demo</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section hero">
+            <div class="container grid"
+                style="grid-template-columns: 1fr 1fr; gap: 80px; padding-top: 60px; align-items: start;">
+                <div>
+                    <h1 style="color: var(--accent); margin-bottom: 24px;">Ready to Unlock Intelligence from Video?</h1>
+                    <p style="font-size: 1.25rem; line-height: 1.6; margin-bottom: 40px;">See how KenVision transforms
+                        everyday video into insights that improve safety, efficiency, and decision-making.</p>
+
+                    <div class="bento-card"
+                        style="padding: 30px; border-left: 4px solid var(--accent); background: var(--accent-light);">
+                        <p style="margin: 0; font-size: 16px; font-weight: 600; color: var(--accent);">Global
+                            Intelligence</p>
+                        <p style="margin: 10px 0 0; font-size: 14px; color: var(--text-muted);">Trusted by organizations
+                            worldwide for critical infrastructure and urban safety.</p>
+                    </div>
+                </div>
+
+                <div class="bento-card" style="padding: 50px; background: white; box-shadow: var(--shadow-card);">
+                    <form action="#" id="demoForm">
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-input" required placeholder="Jane Smith">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Work Email</label>
+                            <input type="email" class="form-input" required placeholder="jane@enterprise.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Industry</label>
+                            <select class="form-input" required>
+                                <option value="">Select Industry</option>
+                                <option value="retail">Retail</option>
+                                <option value="commercial">Commercial Buildings</option>
+                                <option value="cities">Smart Cities</option>
+                                <option value="security">Security & Surveillance</option>
+                                <option value="emergency">Emergency Services</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary"
+                            style="width: 100%; justify-content: center; padding: 16px;">Request My Demo</button>
+                    </form>
+                    <div id="successMessage" style="display: none; text-align: center; padding: 40px 0;">
+                        <span style="font-size: 2.5rem; display: block; margin-bottom: 20px;">&check;</span>
+                        <h3 style="color: var(--accent);">Request Received</h3>
+                        <p>Our team will reach out within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col" style="grid-column: span 1;">
+                    <a href="index.html" class="logo">KenVision</a>
+                    <p style="font-size: 12px; margin-top: 10px;">Empowering decisions through AI video intelligence.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="solutions/retail-analytics.html">Retail</a></li>
+                        <li><a href="solutions/commercial-buildings.html">Commercial</a></li>
+                        <li><a href="solutions/smart-cities.html">Smart Cities</a></li>
+                        <li><a href="solutions/video-surveillance.html">Surveillance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="product.html">Features</a></li>
+                        <li><a href="product.html#deployment">Deployment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="company.html">About Us</a></li>
+                        <li><a href="company.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="terms.html">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Intelense Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('demoForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            this.style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
